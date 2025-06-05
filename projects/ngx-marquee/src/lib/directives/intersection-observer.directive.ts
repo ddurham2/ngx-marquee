@@ -4,7 +4,8 @@ import { takeUntil } from 'rxjs/operators';
 import { fromIntersectionObserver, IntersectionStatus } from '../observables/from-intersection-observer';
 
 @Directive({
-  selector: '[intersectionObserver]'
+    selector: '[intersectionObserver]',
+    standalone: false
 })
 export class IntersectionObserverDirective implements OnInit, OnDestroy {
 
