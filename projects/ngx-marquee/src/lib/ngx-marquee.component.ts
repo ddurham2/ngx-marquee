@@ -20,10 +20,11 @@ export enum MarqueeAnimation {
 }
 
 @Component({
-  selector: 'ngx-marquee',
-  templateUrl: './ngx-marquee.component.html',
-  styleUrls: ['./ngx-marquee.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'ngx-marquee',
+    templateUrl: './ngx-marquee.component.html',
+    styleUrls: ['./ngx-marquee.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class NgxMarqueeComponent implements AfterViewInit {
 
