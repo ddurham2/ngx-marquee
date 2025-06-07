@@ -1,2 +1,2 @@
 #!/bin/bash
-./node_modules/.bin/ng build ngx-marquee
+npm install && ./node_modules/.bin/ng build ngx-marquee && ./node_modules/.bin/ng serve
